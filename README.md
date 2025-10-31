@@ -30,7 +30,7 @@
 - [实验四：会话管理](/exp04)
 - [实验五：JDBC数据库访问技术](/exp05)
 - [实验六：Servlet过滤器与事件管理](/exp06)
-- [综合实验报告：基于Java Web的网上蛋糕商城的设计与实现](/exp_Comprehensive/)
+- [综合实验报告：基于Java Web的网上蛋糕商城的设计与实现](/CookieShop)
 
 ## 附录
 
