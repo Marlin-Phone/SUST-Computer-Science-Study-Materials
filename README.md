@@ -30,7 +30,20 @@
 - [实验四：会话管理](/exp04)
 - [实验五：JDBC数据库访问技术](/exp05)
 - [实验六：Servlet过滤器与事件管理](/exp06)
-- [综合实验报告：基于Java Web的网上蛋糕商城的设计与实现](/CookieShop)
+- [综合实验：基于Java Web的网上蛋糕商城的设计与实现](/CookieShop)
+
+## 运行方式
+
+实验一至实验六均可通过以下方式运行：
+1. 下载 tomcat 服务器，版本建议 9.0 及以上。
+2. 将项目部署到 tomcat 服务器的 webapps 目录下。
+3. 启动 tomcat 服务器，访问 http://localhost:8080/exp01/input.html 等即可。
+
+实验七（综合实验）可通过以下方式运行：
+1. 下载 IDEA。
+2. 将 [CookieShop](/CookieShop/) 导入 IDEA 中。
+3. 运行数据库脚本 [CookieShop/cookieshop-mysql8.0.sql](/CookieShop/cookieshop-mysql8.0.sql) 创建数据库及数据表（注意按照依赖顺序）。
+4. 运行 CookieShop 项目，访问 http://localhost:8080/index 即可。
 
 ## 附录
 
