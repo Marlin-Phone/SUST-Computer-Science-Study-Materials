@@ -13,8 +13,6 @@ exp03/
 ├── login.html                  # 用户登录页面
 ├── display.jsp                 # 显示用户信息页面
 ├── calculate.jsp               # 简单计算器页面
-├── 实验预习报告.md              # 实验预习报告
-├── 实验报告.md                  # 实验报告
 ├── src/                       # Java源代码目录
 │   └── com/
 │       └── beans/
