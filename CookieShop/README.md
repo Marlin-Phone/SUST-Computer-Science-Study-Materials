@@ -1,4 +1,4 @@
-> 运行该项目前必须将 [CookieShop/src/c3p0-config.xml](CookieShop/src/c3p0-config.xml) 中数据库的端口、数据库名、账号及密码修改为你本地的配置，否则无法连接数据库。
+> 运行该项目前必须将 [CookieShop/src/c3p0-config.xml](/CookieShop/src/c3p0-config.xml) 中数据库的端口、数据库名、账号及密码修改为你本地的配置，否则无法连接数据库。
 > 进入的方法是在登录界面输入账号 `admin`，密码 `admin`后跳转至后台首页 http://localhost:8080/admin/index
 
 ---
