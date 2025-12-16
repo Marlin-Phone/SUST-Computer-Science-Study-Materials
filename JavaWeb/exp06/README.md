@@ -1,4 +1,4 @@
-> 运行该项目前必须将 [exp06\WEB-INF\classes\db_config.properties](exp06\WEB-INF\classes\db_config.properties) 中数据库的端口、数据库名、账号及密码修改为你本地的配置，否则无法连接数据库。
+> 运行该项目前必须将 [exp06\WEB-INF\classes\db_config.properties](WEB-INF\classes\db_config.properties) 中数据库的端口、数据库名、账号及密码修改为你本地的配置，否则无法连接数据库。
 
 ---
 
