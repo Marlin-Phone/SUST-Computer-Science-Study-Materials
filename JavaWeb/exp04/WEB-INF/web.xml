@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>exp04</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+    <!-- 添加Servlet配置 -->
+    <servlet>
+        <servlet-name>ShowSessionInfo</servlet-name>
+        <servlet-class>com.servlet.ShowSessionInfo</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ShowSessionInfo</servlet-name>
+        <url-pattern>/showSessionInfo</url-pattern>
+    </servlet-mapping>
+    <!-- 商品展示 Servlet -->
+    <servlet>
+        <servlet-name>ProductServlet</servlet-name>
+        <servlet-class>com.servlet.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductServlet</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+    <!-- 为其他Servlet添加配置 -->
+    <servlet>
+        <servlet-name>CheckUserServlet</servlet-name>
+        <servlet-class>com.servlet.CheckUserServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CheckUserServlet</servlet-name>
+        <url-pattern>/checkUser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ControllerServlet</servlet-name>
+        <servlet-class>com.servlet.ControllerServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/controller</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/exp04/controller</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GuessNumberServlet</servlet-name>
+        <servlet-class>com.servlet.GuessNumberServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>GuessNumberServlet</servlet-name>
+        <url-pattern>/guessNumber</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.servlet.HomeServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+    <!-- 配置updateItem的URL映射 -->
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/updateItem</url-pattern>
+    </servlet-mapping>
+    
+    <!-- 配置独立的Page1Servlet -->
+    <servlet>
+        <servlet-name>Page1Servlet</servlet-name>
+        <servlet-class>com.servlet.Page1Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Page1Servlet</servlet-name>
+        <url-pattern>/page1</url-pattern>
+    </servlet-mapping>
+    
+    <!-- 配置独立的Page2Servlet -->
+    <servlet>
+        <servlet-name>Page2Servlet</servlet-name>
+        <servlet-class>com.servlet.Page2Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Page2Servlet</servlet-name>
+        <url-pattern>/page2</url-pattern>
+    </servlet-mapping>
+</web-app>

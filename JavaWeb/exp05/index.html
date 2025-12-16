@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>实验五：JDBC数据库访问与DAO设计模式</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .menu {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .menu a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            width: 300px;
+        }
+        .menu a:hover {
+            background-color: #0056b3;
+        }
+        .experiment {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>实验五：JDBC数据库访问与DAO设计模式</h1>
+    
+    <div class="experiment">
+        <h2>实验内容1：传统JDBC方法访问数据库</h2>
+        <p>使用传统JDBC方法与Model 1模型通过JSP页面访问数据库。</p>
+        <a href="displayBooks.jsp">查看图书信息</a>
+    </div>
+    
+    <div class="experiment">
+        <h2>实验内容3：DAO设计模式练习</h2>
+        <p>使用DAO设计模式对客户信息进行增删改查操作。</p>
+        <div class="menu">
+            <a href="insertCustomer.jsp">添加客户信息</a>
+            <a href="showCustomer.jsp">查看客户信息</a>
+        </div>
+    </div>
+</body>
+</html>
