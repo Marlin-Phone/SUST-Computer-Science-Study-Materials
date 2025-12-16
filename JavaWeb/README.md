@@ -27,14 +27,14 @@
 
 ## 项目目录
 
-- [实验一：Servlet技术及应用](/exp01)
-- [实验二：JSP技术及应用](/exp02)
-- [实验三：Web组件重用与JavaBeans](/exp03)
-- [实验四：会话管理](/exp04)
-- [实验五：JDBC数据库访问技术](/exp05)
-- [实验六：Servlet过滤器与事件管理](/exp06)
-- [综合实验：基于Java Web的网上蛋糕商城的设计与实现](/CookieShop)
-- [期末复习](/期末复习)
+- [实验一：Servlet技术及应用](exp01)
+- [实验二：JSP技术及应用](exp02)
+- [实验三：Web组件重用与JavaBeans](exp03)
+- [实验四：会话管理](exp04)
+- [实验五：JDBC数据库访问技术](exp05)
+- [实验六：Servlet过滤器与事件管理](exp06)
+- [综合实验：基于Java Web的网上蛋糕商城的设计与实现](CookieShop)
+- [期末复习](期末复习)
 
 ## 运行方式
 
@@ -45,9 +45,9 @@
 
 实验七（综合实验）可通过以下方式运行：
 1. 下载 IDEA。
-2. 将 [CookieShop](/CookieShop/) 导入 IDEA 中。
+2. 将 [CookieShop](CookieShop/) 导入 IDEA 中。
 3. 配置  [CookieShop\src\c3p0-config.xml](CookieShop\src\c3p0-config.xml) 中的端口号、数据库名、用户名和密码。
-4. 运行数据库脚本 [CookieShop/cookieshop-mysql8.0.sql](/CookieShop/cookieshop-mysql8.0.sql) 创建数据库及数据表（注意按照依赖顺序）。
+4. 运行数据库脚本 [CookieShop/cookieshop-mysql8.0.sql](CookieShop/cookieshop-mysql8.0.sql) 创建数据库及数据表（注意按照依赖顺序）。
 5. 运行 CookieShop 项目
 6. 主页访问：http://localhost:8080/index
     管理员后台访问: 登录页面输入账号 `admin`，密码 `admin` 登录后自动跳转至后台首页 http://localhost:8080/admin/index
