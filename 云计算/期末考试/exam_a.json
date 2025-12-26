@@ -1,0 +1,170 @@
+{
+  "examId": "A",
+  "title": "云计算期末复习题库 A",
+  "sections": [
+    {
+      "id": "single",
+      "name": "单项选择题",
+      "questions": [
+        {
+          "id": "A1",
+          "type": "single",
+          "question": "在云计算中，弹性是指什么？",
+          "choices": [
+            "云服务的高可用性",
+            "云服务的安全性",
+            "数据在不同区域的复制",
+            "根据需求动态调整资源的能力"
+          ],
+          "answerIndex": 3,
+          "explainSteps": [
+            "强调动态按需与自动伸缩",
+            "区分弹性与高可用性概念"
+          ],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "A2",
+          "type": "single",
+          "question": "以下哪种云计算部署模型允许多个组织共享同一个云基础设施，但数据和应用程序彼此隔离？",
+          "choices": ["公有云", "私有云", "混合云", "社区云"],
+          "answerIndex": 3,
+          "explainSteps": ["强调多组织共享但隔离", "结合教材语境说明社区云定义"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "A3",
+          "type": "single",
+          "question": "在云计算中，虚拟化技术的主要作用是什么？",
+          "choices": [
+            "提高物理服务器的处理速度",
+            "将物理资源抽象为逻辑资源，实现资源的灵活分配和隔离",
+            "增强网络的安全性",
+            "减少数据中心的能耗"
+          ],
+          "answerIndex": 1,
+          "explainSteps": ["说明资源抽象与隔离的核心作用", "示例：计算/存储/网络虚拟化"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "A4",
+          "type": "single",
+          "question": "在云计算环境中，CAP 定理指出分布式系统无法同时满足以下哪三项特性？",
+          "choices": [
+            "一致性、可用性、分区容错性",
+            "一致性、可扩展性、持久性",
+            "可用性、可靠性、可维护性",
+            "分区容错性、可扩展性、安全性"
+          ],
+          "answerIndex": 0,
+          "explainSteps": ["解释 C/A/P 含义", "举例说明不可兼得场景"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "A5",
+          "type": "single",
+          "question": "以下哪种技术不是用于实现云计算中的虚拟化？",
+          "choices": ["容器化技术", "虚拟机技术", "大数据分析技术", "网络虚拟化技术"],
+          "answerIndex": 2,
+          "explainSteps": ["说明数据分析不属于虚拟化实现技术"],
+          "animationType": "choice-reveal"
+        }
+      ]
+    },
+    {
+      "id": "short",
+      "name": "简答题",
+      "questions": [
+        {
+          "id": "A_S1",
+          "type": "short",
+          "question": "解释什么是云计算？",
+          "answer": [
+            "基于互联网的计算模式",
+            "按需提供计算与存储服务",
+            "无需管理物理设备，具备可扩展与灵活性"
+          ],
+          "explainSteps": ["给出定义", "列举特征", "总结优势"],
+          "animationType": "typewriter"
+        },
+        {
+          "id": "A_S2",
+          "type": "short",
+          "question": "解释 IaaS、PaaS、SaaS 各自的含义。",
+          "answer": [
+            "IaaS：提供处理/存储/网络，用户管理 OS 与应用",
+            "PaaS：提供开发环境，用户管理应用与数据",
+            "SaaS：提供应用服务，用户无需管理底层"
+          ],
+          "explainSteps": ["逐层说明职责边界"],
+          "animationType": "typewriter"
+        },
+        {
+          "id": "A_S3",
+          "type": "short",
+          "question": "解释专有网络（VPC）。",
+          "answer": [
+            "用户专有的云上私有网络",
+            "可控 IP 范围、路由表、网关",
+            "通过高速通道连接其他网络，支持混合云"
+          ],
+          "explainSteps": ["给出定义", "权限与控制", "连接与场景"],
+          "animationType": "typewriter"
+        },
+        {
+          "id": "A_S4",
+          "type": "short",
+          "question": "传统服务器与云服务器的区别。",
+          "answer": [
+            "传统：独立硬件、成本高、扩展难",
+            "云服务器：虚拟化池化、按需付费、弹性扩展"
+          ],
+          "explainSteps": ["对比表格左右滑入"],
+          "animationType": "reveal-box"
+        }
+      ]
+    },
+    {
+      "id": "case",
+      "name": "案例分析题",
+      "questions": [
+        {
+          "id": "A_C1",
+          "type": "case",
+          "question": "分析云计算安全措施中实现容灾场景方案（ECS/SLB/RDS/OSS）。",
+          "image": "image.png",
+          "explainSteps": [
+            "高亮 SLB：流量分发与故障隔离",
+            "高亮 ECS：多可用区部署与接管",
+            "高亮 RDS：主从同步与故障切换",
+            "高亮 OSS：跨区域数据冗余"
+          ],
+          "animationType": "path-flow"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "name": "计算题",
+      "questions": [
+        {
+          "id": "A_M1",
+          "type": "calc",
+          "question": "ESSD PL1 云盘性能计算（容量 5000 GiB）。",
+          "formulas": [
+            "IOPS = min{1800 + 50 × Capacity, 50000}",
+            "Throughput = min{120 + 0.5 × Capacity, 350}"
+          ],
+          "explainSteps": [
+            "计算最大 IOPS：1800 + 50 × 5000 = 251,800，取上限 50,000",
+            "计算最大吞吐量：120 + 0.5 × 5000 = 2620，取上限 350 MB/s",
+            "实际 IOPS：50,000 × 0.75 = 37,500",
+            "实际吞吐量：350 × 0.60 = 210 MB/s"
+          ],
+          "animationType": "latex-step"
+        }
+      ]
+    }
+  ]
+}
+

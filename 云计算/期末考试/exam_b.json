@@ -1,0 +1,125 @@
+{
+  "examId": "B",
+  "title": "云计算期末复习题库 B",
+  "sections": [
+    {
+      "id": "single",
+      "name": "单项选择题",
+      "questions": [
+        {
+          "id": "B1",
+          "type": "single",
+          "question": "云计算的特性包括？",
+          "choices": ["简便的访问", "高可信度与经济性", "按需计算与服务", "以上全部"],
+          "answerIndex": 3,
+          "explainSteps": ["枚举三项特性", "说明综合选择为正确"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "B2",
+          "type": "single",
+          "question": "\"云\"服务影响包括？",
+          "choices": ["理财", "健康", "交通导航", "以上全部"],
+          "answerIndex": 3,
+          "explainSteps": ["覆盖范围广泛", "多领域影响"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "B3",
+          "type": "single",
+          "question": "云计算是对（）技术的发展与运用？",
+          "choices": ["并行计算", "网格计算", "分布式计算", "三个选项都是"],
+          "answerIndex": 3,
+          "explainSteps": ["三者共同构成云计算发展背景"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "B4",
+          "type": "single",
+          "question": "IaaS是（）的简称。",
+          "choices": ["软件即服务", "平台即服务", "基础设施即服务", "硬件即服务"],
+          "answerIndex": 2,
+          "explainSteps": ["明确 IaaS 定义与职责"],
+          "animationType": "choice-reveal"
+        },
+        {
+          "id": "B5",
+          "type": "single",
+          "question": "不属于桌面虚拟化技术构架的选项是？",
+          "choices": ["VDI", "VOI", "远程托管桌面", "OSV 智能桌面虚拟化"],
+          "answerIndex": 2,
+          "explainSteps": ["结合教材定义说明选择原因"],
+          "animationType": "choice-reveal"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "name": "问答题",
+      "questions": [
+        {
+          "id": "B_Q1",
+          "type": "short",
+          "question": "简述 Hadoop, Spark, MPI 三种计算框架的特点及适用场景。",
+          "answer": [
+            "Hadoop：基于磁盘、批处理；适合大规模数据，SPMD",
+            "Spark：基于内存、迭代计算；适合需要多轮迭代的应用",
+            "MPI：消息传递、复杂；适合各种复杂并行计算，MPMD"
+          ],
+          "explainSteps": ["按框架依次展示图标与特点", "给出典型场景"],
+          "animationType": "typewriter"
+        },
+        {
+          "id": "B_Q2",
+          "type": "short",
+          "question": "详述云服务的基本层次。",
+          "answer": [
+            "IaaS：提供核心计算/网络 (EC2)",
+            "PaaS：提供开发平台 (GAE)",
+            "SaaS：提供 Web 软件 (Google Docs)"
+          ],
+          "explainSteps": ["金字塔图由底到顶展开"],
+          "animationType": "reveal-box"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "name": "应用分析题",
+      "questions": [
+        {
+          "id": "B_CAP1",
+          "type": "case",
+          "question": "CAP 定理应用：v1 正在对 v0 赋值时是否可同时保证一致性与可用性？",
+          "images": ["image-1.png", "image-2.png"],
+          "explainSteps": [
+            "场景模拟：数据从 G1 写向 G2",
+            "一致性：锁定 G2 导致不可用",
+            "可用性：不锁定可能读到旧值",
+            "结论：分区时 C 与 A 不可兼得"
+          ],
+          "animationType": "path-flow"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "name": "计算题",
+      "questions": [
+        {
+          "id": "B_M1",
+          "type": "calc",
+          "question": "100 Mbps 下载 1 GB 文件的时间计算。",
+          "formulas": [
+            "1 GB = 1024 MB",
+            "100 Mbps = 12.5 MB/s",
+            "Time = Size / Speed = 1024 / 12.5 = 81.92 s"
+          ],
+          "explainSteps": ["单位换算", "时间计算", "结果显示"],
+          "animationType": "latex-step"
+        }
+      ]
+    }
+  ]
+}
+
