@@ -1,0 +1,6 @@
+.vscode
+.idea
+
+# Log file
+*.log
+
