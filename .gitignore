@@ -1,0 +1,6 @@
+.vscode/
+.pycharm/
+__pycache__/
+
+codes/cnn_python/data/images.zip
+codes/cnn_python/data/images

@@ -1,0 +1,9 @@
+torch>=1.13.1
+torchvision>=0.14.1
+numpy>=1.21.0
+Pillow>=8.0.0
+matplotlib>=3.3.0
+pandas>=1.1.0
+
+# 如果在安装 torch 时遇到平台/CUDA 问题，请参考 PyTorch 官方安装页：
+# https://pytorch.org/get-started/locally/
