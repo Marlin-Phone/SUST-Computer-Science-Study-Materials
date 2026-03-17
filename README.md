@@ -33,33 +33,44 @@
 ## 📁项目目录
 
 ### ✅已更新完毕
+大一：
+- [数据结构与算法](./数据结构与算法/README.md)
+
+大二：
+- [算法分析与设计](./算法分析与设计/README.md)
+- [C++程序设计](./C++程序设计/README.md)
 - [大学物理II](./大学物理II/README.md)
 - [人工智能导论](./人工智能导论/README.md)
-- [数据库原理](./数据库原理/README.md)
-- [数据结构与算法](./数据结构与算法/README.md)
-- [C++程序设计](./C++程序设计/README.md)
-- [算法分析与设计](./算法分析与设计/README.md)
-- [专业综合设计I](./Design-I/README.md)
 - [数字图像处理](./数字图像处理/README.md)
+- [数据库原理及应用](./数据库原理/README.md)
 - [数学建模](./数学建模/README.md)
-- [电子实习](./电子实习/README.md)
-- [云计算](./云计算/README.md)
 - [数字逻辑课程设计](./数字逻辑课程设计/README.md)
-- [网络应用程序设计(Java Web)](./JavaWeb/README.md)
-- [计算机网络原理](./Network/README.md)
-- [微机原理与接口技术](./微机原理与接口技术/README.md)
+- [专业综合设计I](./Design-I/README.md)
+
+大三：
 - [操作系统](./Operating-System/README.md)
+- [网络应用程序设计(Java Web)](./JavaWeb/README.md)
+- [微机原理与接口技术](./微机原理与接口技术/README.md)
+- [计算机网络原理](./Network/README.md)
+- [云计算](./云计算/README.md)
+- [电子实习](./电子实习/README.md)
 
 ### ⭕正在更新中（求PR补充）
+大二：
 - [Python程序设计](./Python程序设计/README.md)
 - [计算机组成原理](./计算机组成原理/)
-- [Java程序设计](./Java程序设计/README.md)
+- [面向对象程序设计(Java)](./Java程序设计/README.md)
 
 ### 📑计划更新中
+大一：
 - 大学物理I
 - 概率论与数理统计
+
+大二：
 - 复变函数与积分变换
 - 离散数学
+
+大三：
 - 专业综合设计II
 - 软件工程
 - 编译原理
